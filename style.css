@@ -1,0 +1,52 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*background-image: linear-gradient(180deg, blue,skyblue);*/
+    margin-bottom:345px;
+
+}
+#weatherContainer{
+    margin-top:20px;
+    margin-left:680px;
+    background-color:rgba(0,0,0,0.25);
+    box-shadow:1px 1px 5px black;
+    padding:50px;
+    position:absolute;
+    border-radius:10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left:30px;
+}
+.header{
+    margin-right:625px;
+}
+.searchCon{
+    margin-top:30px;
+    display: flex;
+    justify-content:space-between;
+}
+#searchContainer{
+    margin-left:400px;
+    margin-top:110px;
+}
+
+#weatherDescription div{
+    display:inline-block;
+}
+
+
+.search{
+    padding:5px;
+    background-color: pink;
+    border-radius:5px;
+    border:none;
+}
+#issMap{
+    height: 300px;
+    width: 525px;
+    margin-right:100px;
+    border-radius:10px;
+}
